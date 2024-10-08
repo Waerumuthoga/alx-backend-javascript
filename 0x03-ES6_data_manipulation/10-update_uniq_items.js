@@ -1,5 +1,4 @@
-
-n updateUniqueItems(map) {
+function updateUniqueItems(map) {
   if (!(map instanceof Map)) throw new Error('Cannot process');
 
   map.forEach((value, key) => {
